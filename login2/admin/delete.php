@@ -1,8 +1,8 @@
 <?php
-	require_once('auth.php');
+	require_once('../../login2/auth.php');
 
       //Include database connection details
-	require_once('config.php');
+	require_once('../../php/config.php');
     $link = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
     if(!$link) {
         die('Failed to connect to server: ' . mysqli_error());
@@ -21,7 +21,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-    <a href="admin-edit.php">Takaisin</a> | <a href="admin-index.php">Home</a> | <a href="logout.php">Logout</a>
+    <a href="admin-edit.php">Takaisin</a> | <a href="admin-index.php">Home</a> | <a href="../logout.php">Logout</a>
     <br>
     <div style="margin:20px;">
     <?php  

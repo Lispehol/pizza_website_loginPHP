@@ -1,8 +1,8 @@
 <?php
-	require_once('auth.php');
+	require_once('../../login2/auth.php');
 
     //Include database connection details
-    require_once('config.php');
+    require_once('../../php/config.php');
 	
 
     $link = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);

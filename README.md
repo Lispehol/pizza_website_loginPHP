@@ -1,5 +1,7 @@
 # pizza_website_loginPHP
-This is simple website using php and mySQL.  The script is edited from a teaching tool for PHP newbies and is not meant to be used in production environments.
+This is simple website using php and mySQL.  I've edited the script from a teaching tool for PHP newbies as an excercise related to my studies while familiarizing myself with php and it is not meant to be used in production environments. The code may contain errors or bad practises.
+
+There is some info about .php files, I'll add later the rest: 
 
 config.php - This script contains the database connection details. Edit this file to specify your own database's connection details.
 

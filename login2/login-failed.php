@@ -10,6 +10,6 @@
     <p align="center">&nbsp;</p>
     <h4 align="center" class="err">Login Failed!<br />
       Please check your username and password</h4>
-      <p align="center"><a  href="login-form.php">Back to login</a></p>
+      <p align="center"><a  href="../login.html">Back to login</a></p>
   </body>
 </html>

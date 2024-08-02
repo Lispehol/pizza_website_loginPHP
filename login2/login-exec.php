@@ -3,7 +3,7 @@
 	session_start();
 	
 	//Include database connection details
-	require_once('config.php');
+	require_once('../php/config.php');
 	
 	//Array to store validation errors
 	$errmsg_arr = array();
@@ -41,6 +41,7 @@
 		$errmsg_arr[] = 'Login ID missing';
 		$errflag = true;
 	}
+
 	if($password == '') {
 		$errmsg_arr[] = 'Password missing';
 		$errflag = true;
@@ -50,7 +51,7 @@
 	if($errflag) {
 		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 		session_write_close();
-		header("location: login.html");
+		header("location: ../login.html");
 		exit();
 	}
 	
@@ -74,17 +75,17 @@
 			session_write_close();
 			$login = $_SESSION['SESS_LOGIN'];
 			if ($login == 'admin'){
-				header("location: admin-index.php");
+				header("location: admin/admin-index.php");
 			} else {
-			header("location: member-index.php");
+			header("location: member/member-index.php");
 			exit();
 			}
-		}else {
+		} else {
 			//Login failed
 			header("location: login-failed.php");
 			exit();
 		}
-	}else {
+	} else {
 		die("Query failed");
 	}
 ?>

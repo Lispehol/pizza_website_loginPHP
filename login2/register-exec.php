@@ -3,7 +3,7 @@
 	session_start();
 	
 	//Include database connection details
-	require_once('config.php');
+	require_once('../php/config.php');
 	
 	//Array to store validation errors
 	$errmsg_arr = array();
@@ -86,7 +86,7 @@
 	if($errflag) {
 		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 		session_write_close();
-		header("location: register-form.php");
+		header("location: ../rekist.html");
 		exit();
 	}
 

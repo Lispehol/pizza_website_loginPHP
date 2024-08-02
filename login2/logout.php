@@ -17,7 +17,7 @@
 		<h1>Logout </h1>
 		<p align="center">&nbsp;</p>
 		<h4 align="center" class="err">You have been logged out.</h4>
-		<p align="center">Click here to <a href="login.html">Login</a></p>
-		<p align="center"><a href="main.html">Main page</p>
+		<p align="center">Click here to <a href="../login.html">Login</a></p>
+		<p align="center"><a href="../index.html">Main page</p>
 	</body>
 </html>

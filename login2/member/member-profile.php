@@ -1,8 +1,8 @@
 <?php
-	require_once('auth.php');
+	require_once('../../login2/auth.php');
 
 	//Include database connection details
-	require_once('config.php');
+	require_once('../../php/config.php');
 
 	$link = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 	if(!$link) {
@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 	</head>
 <body>
-	<a href="member-index.php">Home</a> | <a href="logout.php">Logout</a>
+	<a href="member-index.php">Home</a> | <a href="../logout.php">Logout</a>
 	<div class="container">
 		
 		<h1>Minun tilaukseni</h1><br>

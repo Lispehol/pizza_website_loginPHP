@@ -33,12 +33,12 @@ document.getElementById("foot01").innerHTML =
 	
 document.getElementById("nav01").innerHTML = 
 "<ul id='nav'>" +
-"<li><a href='main.html'>Etusivu</a></li>" +
-"<li><a  href='menu.html'>Menu</a></li>" +
-"<li><a  href='rekist.php'>Rekisteröinti</a></li>" +
-"<li><a  href='login.html'>Login</a></li>" +
-"<li><a  href='yhteys.html'>Yhteystiedot</a></li>" +
-"<li style='float:right' class='social'><a href='#' class='me-4 text-reset text-decoration-none'><i class='bi bi-facebook'></i></a></li>" +
-"<li style='float:right' class='social'><a href='#' class='me-4 text-reset text-decoration-none'><i class='bi bi-instagram'></i></a></li>" +
+    "<li><a href='index.html'>Etusivu</a></li>" +
+    "<li><a  href='menu.html'>Menu</a></li>" +
+    "<li><a  href='rekist.html'>Rekisteröinti</a></li>" +
+    "<li><a  href='login.html'>Login</a></li>" +
+    "<li><a  href='yhteys.html'>Yhteystiedot</a></li>" +
+    "<li style='float:right' class='social'><a href='#' class='me-4 text-reset text-decoration-none'><i class='bi bi-facebook'></i></a></li>" +
+    "<li style='float:right' class='social'><a href='#' class='me-4 text-reset text-decoration-none'><i class='bi bi-instagram'></i></a></li>" +
 "</ul>";
 
